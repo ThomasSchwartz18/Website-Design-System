@@ -1,11 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Contrail+One&family=Nabla&display=swap');
+
 /* GLOBAL */
 * {
-
     /* border: 2px dotted red; */
-
 }
-
 
 body {
 
@@ -46,7 +44,7 @@ p:hover {
 
     /* design */
     background-color: rgba(255, 247, 232, 0.899);
-    box-shadow: 0px 0px 0px 0px;
+    box-shadow: 0px 0px 10px 10px rgba(255, 247, 232, 0.899);
 
 }
 
@@ -55,14 +53,16 @@ p:hover {
     /* design */
     font-family: 'Contrail One', cursive;
     font-size: 64px;
+    opacity: 0.5;
 
 }
 
 /* PALETTE */
-.palette--container {
+.combination--container {
 
     /* display */
     padding: 10px;
+    margin: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -70,32 +70,69 @@ p:hover {
 
     /* design */
     border: 2px solid black;
+    border-radius: 50px;
+
+}
+
+.combination--container:hover {
+
+    /* display */
+    box-shadow: 0px 0px 10px 10px;
+    transition: box-shadow 500ms linear 0ms;
+
+}
+
+.combination--heading {
+    
+    /* display */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    width: 200px;
+    height: 250px;
+
+    /* design */
+    font-family: 'Bebas Neue', cursive;
+    border-radius: 30px;
+    border: 2px solid black;
+
+}
+
+.combination--heading:hover {
+
+    /* design */
+    background-image: url(../images/combination.gif);
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    font-size: 26px;
+    transition: font-size 500ms linear 0ms, color 500ms linear 0ms;
 
 }
 
 /* box 1 */
-.palette--color-box-1 {
+.combination--color-box-1 {
 
     /* design */
+    font-family: 'Contrail One', cursive;
+    
+    /* display */
     width: 200px;
     height: 250px;
     display: block;
-    font-family: 'Contrail One', cursive;
-
-    /* display */
     margin: 5px;
     
 }
 
-.palette--color-box-1 .box {
+.combination--color-box-1 .box {
     
     /* display */
     height: 48.5%;
-
+    
 }
 
-.palette--color-box-1 .top p {
-
+.combination--color-box-1 .top p {
+    
     /* display */
     margin: 0;
     padding: 5px;
@@ -104,10 +141,11 @@ p:hover {
     /* design */
     color: rgb(255, 255, 255);
     background-color: rgb(221,197,138);
+    border-radius: 30px 30px 0 0;
     
 }
 
-.palette--color-box-1 .bottom p {
+.combination--color-box-1 .bottom p {
 
     /* display */
     margin: 0;
@@ -117,11 +155,12 @@ p:hover {
     /* design */
     color: rgb(255, 255, 255);
     background-color: rgb(225,174,110);
+    border-radius: 0 0 30px 30px;
 
 }
 
 /* box 2 */
-.palette--color-box-2 {
+.combination--color-box-2 {
 
     /* design */
     width: 200px;
@@ -134,14 +173,14 @@ p:hover {
     
 }
 
-.palette--color-box-2 .box {
+.combination--color-box-2 .box {
     
     /* display */
     height: 48.5%;
 
 }
 
-.palette--color-box-2 .top p {
+.combination--color-box-2 .top p {
 
     /* display */
     margin: 0;
@@ -151,10 +190,11 @@ p:hover {
     /* design */
     color: rgb(255, 255, 255);
     background-color: rgba(197,144,81,255);
+    border-radius: 30px 30px 0 0;
     
 }
 
-.palette--color-box-2 .bottom p {
+.combination--color-box-2 .bottom p {
 
     /* display */
     margin: 0;
@@ -164,11 +204,12 @@ p:hover {
     /* design */
     color: rgb(255, 255, 255);
     background-color: rgba(153,142,98,255);
+    border-radius: 0 0 30px 30px;
 
 }
 
 /* box 3 */
-.palette--color-box-3 {
+.combination--color-box-3 {
 
     /* design */
     width: 200px;
@@ -181,14 +222,14 @@ p:hover {
     
 }
 
-.palette--color-box-3 .box {
+.combination--color-box-3 .box {
     
     /* display */
     height: 48.5%;
 
 }
 
-.palette--color-box-3 .top p {
+.combination--color-box-3 .top p {
 
     /* display */
     margin: 0;
@@ -198,10 +239,11 @@ p:hover {
     /* design */
     color: rgb(255, 255, 255);
     background-color: rgba(151,92,82,255);
+    border-radius: 30px 30px 0 0;
     
 }
 
-.palette--color-box-3 .bottom p {
+.combination--color-box-3 .bottom p {
 
     /* display */
     margin: 0;
@@ -211,11 +253,12 @@ p:hover {
     /* design */
     color: rgb(255, 255, 255);
     background-color: rgba(225,174,110,255);
+    border-radius: 0 0 30px 30px;
 
 }
 
 /* box 4 */
-.palette--color-box-4 {
+.combination--color-box-4 {
 
     /* design */
     width: 200px;
@@ -228,14 +271,14 @@ p:hover {
     
 }
 
-.palette--color-box-4 .box {
+.combination--color-box-4 .box {
     
     /* display */
     height: 48.5%;
 
 }
 
-.palette--color-box-4 .top p {
+.combination--color-box-4 .top p {
 
     /* display */
     margin: 0;
@@ -245,10 +288,11 @@ p:hover {
     /* design */
     color: rgb(255, 255, 255);
     background-color: rgba(238,224,182,255);
+    border-radius: 30px 30px 0 0;
     
 }
 
-.palette--color-box-4 .bottom p {
+.combination--color-box-4 .bottom p {
 
     /* display */
     margin: 0;
@@ -258,11 +302,12 @@ p:hover {
     /* design */
     color: rgb(255, 255, 255);
     background-color: rgba(100,118,0,255);
+    border-radius: 0 0 30px 30px;
 
 }
 
 /* box 5 */
-.palette--color-box-5 {
+.combination--color-box-5 {
 
     /* design */
     width: 200px;
@@ -275,14 +320,14 @@ p:hover {
     
 }
 
-.palette--color-box-5 .box {
+.combination--color-box-5 .box {
     
     /* display */
     height: 48.5%;
 
 }
 
-.palette--color-box-5 .top p {
+.combination--color-box-5 .top p {
 
     /* display */
     margin: 0;
@@ -292,10 +337,11 @@ p:hover {
     /* design */
     color: rgb(255, 255, 255);
     background-color: rgba(146,160,167,255);
+    border-radius: 30px 30px 0 0;
     
 }
 
-.palette--color-box-5 .bottom p {
+.combination--color-box-5 .bottom p {
 
     /* display */
     margin: 0;
@@ -305,11 +351,12 @@ p:hover {
     /* design */
     color: rgb(255, 255, 255);
     background-color: rgba(225,174,110,255);
+    border-radius: 0 0 30px 30px;
 
 }
 
 /* box 6 */
-.palette--color-box-6 {
+.combination--color-box-6 {
 
     /* design */
     width: 200px;
@@ -322,14 +369,14 @@ p:hover {
     
 }
 
-.palette--color-box-6 .box {
+.combination--color-box-6 .box {
     
     /* display */
     height: 48.5%;
 
 }
 
-.palette--color-box-6 .top p {
+.combination--color-box-6 .top p {
 
     /* display */
     margin: 0;
@@ -339,10 +386,11 @@ p:hover {
     /* design */
     color: rgb(255, 255, 255);
     background-color: rgba(69,82,98,255);
+    border-radius: 30px 30px 0 0;
     
 }
 
-.palette--color-box-6 .bottom p {
+.combination--color-box-6 .bottom p {
 
     /* display */
     margin: 0;
@@ -352,11 +400,12 @@ p:hover {
     /* design */
     color: rgb(255, 255, 255);
     background-color: rgba(164,186,192,255);
+    border-radius: 0 0 30px 30px;
 
 }
 
 /* box 7 */
-.palette--color-box-7 {
+.combination--color-box-7 {
 
     /* design */
     width: 200px;
@@ -369,14 +418,14 @@ p:hover {
     
 }
 
-.palette--color-box-7 .box {
+.combination--color-box-7 .box {
     
     /* display */
     height: 48.5%;
 
 }
 
-.palette--color-box-7 .top p {
+.combination--color-box-7 .top p {
 
     /* display */
     margin: 0;
@@ -386,10 +435,11 @@ p:hover {
     /* design */
     color: rgb(255, 255, 255);
     background-color: rgba(177,187,134,255);
+    border-radius: 30px 30px 0 0;
     
 }
 
-.palette--color-box-7 .bottom p {
+.combination--color-box-7 .bottom p {
 
     /* display */
     margin: 0;
@@ -399,11 +449,12 @@ p:hover {
     /* design */
     color: rgb(255, 255, 255);
     background-color: rgba(197,144,81,255);
+    border-radius: 0 0 30px 30px;
 
 }
 
 /* box 8 */
-.palette--color-box-8 {
+.combination--color-box-8 {
 
     /* design */
     width: 200px;
@@ -416,14 +467,14 @@ p:hover {
     
 }
 
-.palette--color-box-8 .box {
+.combination--color-box-8 .box {
     
     /* display */
     height: 48.5%;
 
 }
 
-.palette--color-box-8 .top p {
+.combination--color-box-8 .top p {
 
     /* display */
     margin: 0;
@@ -433,10 +484,11 @@ p:hover {
     /* design */
     color: rgb(255, 255, 255);
     background-color: rgba(100,118,0,255);
+    border-radius: 30px 30px 0 0;
     
 }
 
-.palette--color-box-8 .bottom p {
+.combination--color-box-8 .bottom p {
 
     /* display */
     margin: 0;
@@ -446,6 +498,7 @@ p:hover {
     /* design */
     color: rgb(255, 255, 255);
     background-color: rgba(147,170,138,255);
+    border-radius: 0 0 30px 30px;
 
 }
 
