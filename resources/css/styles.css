@@ -23,6 +23,15 @@ body {
 
 }
 
+p:hover {
+
+    /* design */
+    font-size: larger;
+    text-decoration: underline;
+    transition: font-size 500ms ease-in 0ms, text-decoration 500ms ease-in 0ms;
+
+}
+
 /* MAIN */
 .main--container {
 
@@ -57,6 +66,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 
     /* design */
     border: 2px solid black;
@@ -73,7 +83,7 @@ body {
     font-family: 'Contrail One', cursive;
 
     /* display */
-    margin: 0 5px 0 5px;
+    margin: 5px;
     
 }
 
@@ -120,7 +130,7 @@ body {
     font-family: 'Contrail One', cursive;
 
     /* display */
-    margin: 0 5px 0 5px;
+    margin: 5px;
     
 }
 
@@ -167,7 +177,7 @@ body {
     font-family: 'Contrail One', cursive;
 
     /* display */
-    margin: 0 5px 0 5px;
+    margin: 5px;
     
 }
 
@@ -203,3 +213,239 @@ body {
     background-color: rgba(225,174,110,255);
 
 }
+
+/* box 4 */
+.palette--color-box-4 {
+
+    /* design */
+    width: 200px;
+    height: 250px;
+    display: block;
+    font-family: 'Contrail One', cursive;
+
+    /* display */
+    margin: 5px;
+    
+}
+
+.palette--color-box-4 .box {
+    
+    /* display */
+    height: 48.5%;
+
+}
+
+.palette--color-box-4 .top p {
+
+    /* display */
+    margin: 0;
+    padding: 5px;
+    height: 100%;
+    
+    /* design */
+    color: rgb(255, 255, 255);
+    background-color: rgba(238,224,182,255);
+    
+}
+
+.palette--color-box-4 .bottom p {
+
+    /* display */
+    margin: 0;
+    padding: 5px;
+    height: 100%;
+     
+    /* design */
+    color: rgb(255, 255, 255);
+    background-color: rgba(100,118,0,255);
+
+}
+
+/* box 5 */
+.palette--color-box-5 {
+
+    /* design */
+    width: 200px;
+    height: 250px;
+    display: block;
+    font-family: 'Contrail One', cursive;
+
+    /* display */
+    margin: 5px;
+    
+}
+
+.palette--color-box-5 .box {
+    
+    /* display */
+    height: 48.5%;
+
+}
+
+.palette--color-box-5 .top p {
+
+    /* display */
+    margin: 0;
+    padding: 5px;
+    height: 100%;
+    
+    /* design */
+    color: rgb(255, 255, 255);
+    background-color: rgba(146,160,167,255);
+    
+}
+
+.palette--color-box-5 .bottom p {
+
+    /* display */
+    margin: 0;
+    padding: 5px;
+    height: 100%;
+     
+    /* design */
+    color: rgb(255, 255, 255);
+    background-color: rgba(225,174,110,255);
+
+}
+
+/* box 6 */
+.palette--color-box-6 {
+
+    /* design */
+    width: 200px;
+    height: 250px;
+    display: block;
+    font-family: 'Contrail One', cursive;
+
+    /* display */
+    margin: 5px;
+    
+}
+
+.palette--color-box-6 .box {
+    
+    /* display */
+    height: 48.5%;
+
+}
+
+.palette--color-box-6 .top p {
+
+    /* display */
+    margin: 0;
+    padding: 5px;
+    height: 100%;
+    
+    /* design */
+    color: rgb(255, 255, 255);
+    background-color: rgba(69,82,98,255);
+    
+}
+
+.palette--color-box-6 .bottom p {
+
+    /* display */
+    margin: 0;
+    padding: 5px;
+    height: 100%;
+     
+    /* design */
+    color: rgb(255, 255, 255);
+    background-color: rgba(164,186,192,255);
+
+}
+
+/* box 7 */
+.palette--color-box-7 {
+
+    /* design */
+    width: 200px;
+    height: 250px;
+    display: block;
+    font-family: 'Contrail One', cursive;
+
+    /* display */
+    margin: 5px;
+    
+}
+
+.palette--color-box-7 .box {
+    
+    /* display */
+    height: 48.5%;
+
+}
+
+.palette--color-box-7 .top p {
+
+    /* display */
+    margin: 0;
+    padding: 5px;
+    height: 100%;
+    
+    /* design */
+    color: rgb(255, 255, 255);
+    background-color: rgba(177,187,134,255);
+    
+}
+
+.palette--color-box-7 .bottom p {
+
+    /* display */
+    margin: 0;
+    padding: 5px;
+    height: 100%;
+     
+    /* design */
+    color: rgb(255, 255, 255);
+    background-color: rgba(197,144,81,255);
+
+}
+
+/* box 8 */
+.palette--color-box-8 {
+
+    /* design */
+    width: 200px;
+    height: 250px;
+    display: block;
+    font-family: 'Contrail One', cursive;
+
+    /* display */
+    margin: 5px;
+    
+}
+
+.palette--color-box-8 .box {
+    
+    /* display */
+    height: 48.5%;
+
+}
+
+.palette--color-box-8 .top p {
+
+    /* display */
+    margin: 0;
+    padding: 5px;
+    height: 100%;
+    
+    /* design */
+    color: rgb(255, 255, 255);
+    background-color: rgba(100,118,0,255);
+    
+}
+
+.palette--color-box-8 .bottom p {
+
+    /* display */
+    margin: 0;
+    padding: 5px;
+    height: 100%;
+     
+    /* design */
+    color: rgb(255, 255, 255);
+    background-color: rgba(147,170,138,255);
+
+}
+
