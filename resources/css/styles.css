@@ -1,5 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Contrail+One&family=Nabla&display=swap');
 /* GLOBAL */
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+* {
+
+    /* border: 2px dotted red; */
+
+}
+
 
 body {
 
@@ -13,7 +19,7 @@ body {
     background-image: url(../images/body-image.jpg);
     background-size: cover;
     background-attachment: fixed;
-    background-color: rgb(179, 247, 255);
+    background-color: rgb(0, 0, 0);
 
 }
 
@@ -28,10 +34,9 @@ body {
     padding: auto 10px auto 10px;
     display: block;
     text-align: center;
-    opacity: .9;
 
     /* design */
-    background-color: rgb(255, 247, 232);
+    background-color: rgba(255, 247, 232, 0.899);
     box-shadow: 0px 0px 0px 0px;
 
 }
@@ -39,7 +44,7 @@ body {
 .main--heading {
 
     /* design */
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Contrail One', cursive;
     font-size: 64px;
 
 }
@@ -47,7 +52,53 @@ body {
 /* PALETTE */
 .palette--container {
 
+    /* display */
+    padding: 10px;
+
     /* design */
     border: 2px solid black;
+
+}
+
+.palette--color-box-1 {
+
+    /* design */
+    width: 200px;
+    height: 250px;
+    display: block;
+    font-family: 'Contrail One', cursive;
+    
+}
+
+.palette--color-box-1 .box {
+    
+    /* display */
+    height: 48.5%;
+
+}
+
+.palette--color-box-1 .top p {
+
+    /* display */
+    margin: 0;
+    padding: 5px;
+    height: 100%;
+    
+    /* design */
+    color: rgb(255, 255, 255);
+    background-color: rgb(221,197,138);
+    
+}
+
+.palette--color-box-1 .bottom p {
+
+    /* display */
+    margin: 0;
+    padding: 5px;
+    height: 100%;
+     
+    /* design */
+    color: rgb(255, 255, 255);
+    background-color: rgb(225,174,110);
 
 }
