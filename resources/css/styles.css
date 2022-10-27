@@ -71,6 +71,9 @@ body {
     height: 250px;
     display: block;
     font-family: 'Contrail One', cursive;
+
+    /* display */
+    margin: 0 5px 0 5px;
     
 }
 
@@ -115,7 +118,9 @@ body {
     height: 250px;
     display: block;
     font-family: 'Contrail One', cursive;
-    margin: 0 10px 0 10px;
+
+    /* display */
+    margin: 0 5px 0 5px;
     
 }
 
@@ -149,5 +154,52 @@ body {
     /* design */
     color: rgb(255, 255, 255);
     background-color: rgba(153,142,98,255);
+
+}
+
+/* box 3 */
+.palette--color-box-3 {
+
+    /* design */
+    width: 200px;
+    height: 250px;
+    display: block;
+    font-family: 'Contrail One', cursive;
+
+    /* display */
+    margin: 0 5px 0 5px;
+    
+}
+
+.palette--color-box-3 .box {
+    
+    /* display */
+    height: 48.5%;
+
+}
+
+.palette--color-box-3 .top p {
+
+    /* display */
+    margin: 0;
+    padding: 5px;
+    height: 100%;
+    
+    /* design */
+    color: rgb(255, 255, 255);
+    background-color: rgba(151,92,82,255);
+    
+}
+
+.palette--color-box-3 .bottom p {
+
+    /* display */
+    margin: 0;
+    padding: 5px;
+    height: 100%;
+     
+    /* design */
+    color: rgb(255, 255, 255);
+    background-color: rgba(225,174,110,255);
 
 }
